@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53C129C2344F4640046293D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C129B2344F4640046293D /* AppDelegate.swift */; };
+		C53C12A52344F4640046293D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53C12A32344F4640046293D /* Main.storyboard */; };
+		C53C12A72344F4650046293D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53C12A62344F4650046293D /* Assets.xcassets */; };
+		C53C12AA2344F4650046293D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53C12A82344F4650046293D /* LaunchScreen.storyboard */; };
+		C53C12B22344F5A80046293D /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C12B12344F5A80046293D /* MainPageViewController.swift */; };
+		C53C12B42344F99F0046293D /* FlightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C12B32344F99F0046293D /* FlightsViewController.swift */; };
+		C53C12B62344FC280046293D /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C12B52344FC280046293D /* Flight.swift */; };
+		C53C12BC2344FC9D0046293D /* Flights.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C12BB2344FC9D0046293D /* Flights.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C53C12982344F4640046293D /* KiwiInterestingFlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiInterestingFlights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53C129B2344F4640046293D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C53C12A42344F4640046293D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C53C12A62344F4650046293D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C53C12A92344F4650046293D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C53C12AB2344F4650046293D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53C12B12344F5A80046293D /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		C53C12B32344F99F0046293D /* FlightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewController.swift; sourceTree = "<group>"; };
+		C53C12B52344FC280046293D /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		C53C12BB2344FC9D0046293D /* Flights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flights.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53C12952344F4640046293D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C53C128F2344F4640046293D = {
+			isa = PBXGroup;
+			children = (
+				C53C129A2344F4640046293D /* KiwiInterestingFlights */,
+				C53C12992344F4640046293D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C53C12992344F4640046293D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53C12982344F4640046293D /* KiwiInterestingFlights.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C53C129A2344F4640046293D /* KiwiInterestingFlights */ = {
+			isa = PBXGroup;
+			children = (
+				C53C129B2344F4640046293D /* AppDelegate.swift */,
+				C53C12A32344F4640046293D /* Main.storyboard */,
+				C53C12B32344F99F0046293D /* FlightsViewController.swift */,
+				C53C12B12344F5A80046293D /* MainPageViewController.swift */,
+				C53C12A62344F4650046293D /* Assets.xcassets */,
+				C53C12A82344F4650046293D /* LaunchScreen.storyboard */,
+				C53C12AB2344F4650046293D /* Info.plist */,
+				C53C12B52344FC280046293D /* Flight.swift */,
+				C53C12BB2344FC9D0046293D /* Flights.swift */,
+			);
+			path = KiwiInterestingFlights;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53C12972344F4640046293D /* KiwiInterestingFlights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53C12AE2344F4650046293D /* Build configuration list for PBXNativeTarget "KiwiInterestingFlights" */;
+			buildPhases = (
+				C53C12942344F4640046293D /* Sources */,
+				C53C12952344F4640046293D /* Frameworks */,
+				C53C12962344F4640046293D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiwiInterestingFlights;
+			productName = KiwiInterestingFlights;
+			productReference = C53C12982344F4640046293D /* KiwiInterestingFlights.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53C12902344F4640046293D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = xbouma;
+				TargetAttributes = {
+					C53C12972344F4640046293D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C53C12932344F4640046293D /* Build configuration list for PBXProject "KiwiInterestingFlights" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C53C128F2344F4640046293D;
+			productRefGroup = C53C12992344F4640046293D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C53C12972344F4640046293D /* KiwiInterestingFlights */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53C12962344F4640046293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53C12AA2344F4650046293D /* LaunchScreen.storyboard in Resources */,
+				C53C12A72344F4650046293D /* Assets.xcassets in Resources */,
+				C53C12A52344F4640046293D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53C12942344F4640046293D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53C12B42344F99F0046293D /* FlightsViewController.swift in Sources */,
+				C53C12B62344FC280046293D /* Flight.swift in Sources */,
+				C53C12B22344F5A80046293D /* MainPageViewController.swift in Sources */,
+				C53C129C2344F4640046293D /* AppDelegate.swift in Sources */,
+				C53C12BC2344FC9D0046293D /* Flights.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C53C12A32344F4640046293D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53C12A42344F4640046293D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C53C12A82344F4650046293D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53C12A92344F4650046293D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C53C12AC2344F4650046293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C53C12AD2344F4650046293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C53C12AF2344F4650046293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KiwiInterestingFlights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fimuni.KiwiInterestingFlights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C53C12B02344F4650046293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KiwiInterestingFlights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fimuni.KiwiInterestingFlights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53C12932344F4640046293D /* Build configuration list for PBXProject "KiwiInterestingFlights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53C12AC2344F4650046293D /* Debug */,
+				C53C12AD2344F4650046293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53C12AE2344F4650046293D /* Build configuration list for PBXNativeTarget "KiwiInterestingFlights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53C12AF2344F4650046293D /* Debug */,
+				C53C12B02344F4650046293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C53C12902344F4640046293D /* Project object */;
+}
